@@ -5,6 +5,12 @@
     padding: 0px;
 }
 
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     height: 100vh;
     width: 100vw;
@@ -44,4 +50,29 @@ section#redes-sociais > img {
     height: 40px;
     border-radius: 15px;
     padding: 9px;
+}
+
+iframe {
+    position: absolute;
+    text-align: center;
+    left: 0%;
+    top: -0%;
+    width: 290px;
+    height: 470px;
+}
+
+article {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    font-size: 4em;
+    top: 103%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+a {
+    color: transparent;
 }
